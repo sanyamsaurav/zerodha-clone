@@ -19,6 +19,8 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+// console.log(xsxhvvjxaXS);
+
 // app.get('/addHoldings',async(req,res)=>{
 
 //   let tempHoldings=

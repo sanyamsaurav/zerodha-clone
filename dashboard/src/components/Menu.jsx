@@ -9,7 +9,8 @@ const Menu = () => {
   const handleMenuClick = (index) => {
     setSelectedMenu(index);
   };
-
+  console.log("dghsafhdgasfd");
+  
   const handleProfileClick = (index) => {
     setIsProfileDropdownOpen(!isProfileDropdownOpen);
   };
