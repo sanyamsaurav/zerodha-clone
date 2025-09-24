@@ -6,9 +6,9 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 
-const {HoldingsModel} = require("./models/HoldingsModel");  
-const { PositionsModel } = require("./models/PositionsModel");
-const { OrderModel } = require("./models/OrdersModel");
+const {HoldingsModel} = require("../models/HoldingsModel");  
+const { PositionsModel } = require("../models/PositionsModel");
+const { OrderModel } = require("../models/OrdersModel");
 
 
 const PORT = process.env.PORT || 3002;
