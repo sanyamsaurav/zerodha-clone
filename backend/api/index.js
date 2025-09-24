@@ -24,8 +24,8 @@ mongoose.connect(process.env.MONGO_URL)
 // Routes
 
 
-app.get("/",async(req,res)=>{
-  await res.send("hello");
+app.get("/", (req, res) => {
+  res.json({ message: "Zerodha Backend Server is running!" });
 });
 
 app.get("/addPosition", async (req, res) => {
