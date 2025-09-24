@@ -21,6 +21,11 @@ mongoose.connect(process.env.MONGO_URL)
 
 // Routes
 
+
+app.get("/",async(req,res)=>{
+  await res.send("hello");
+});
+
 app.get("/addPosition", async (req, res) => {
   const tempPosition = [
     {
