@@ -14,6 +14,8 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+const PORT = process.env.PORT || 3002;
+
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URL)
   .then(() => console.log("MongoDB connected successfully"))
@@ -96,6 +98,11 @@ app.post("/newOrder", async (req, res) => {
     res.status(500).send("Error placing order: " + err.message);
   }
 });
+
+// app.listen(PORT,()=>{
+//   console.log(`connected port on ${PORT}`);
+  
+// })
 
 // ✅ Export Express app for Vercel
 module.exports = app;
