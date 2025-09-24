@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 3002;
+// const PORT = process.env.PORT || 3002;
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URL)
