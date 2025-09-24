@@ -226,10 +226,26 @@ app.post("/newOrder", async (req, res) => {
 newOrder.save();
   res.send("Order Placed");
 });
-app.listen(PORT, () => {
-  console.log("App Started");
-  mongoose.connect(uri);
-  console.log("Mongo Connected");
+
+
+mongoose.connect(process.env.MONGO_URL)
+  .then(() => {
+    console.log("MongoDB connected successfully");
+  })
+  .catch((err) => {
+    console.error("MongoDB connection error:", err);
+  });
+
+
+
+
+// app.listen(PORT, () => {
+//   console.log("App Started");
+//   mongoose.connect(uri);
+//   console.log("Mongo Connected");
 
   
-});
+// });
+
+// Export the Express app for Vercel
+module.exports = app;
