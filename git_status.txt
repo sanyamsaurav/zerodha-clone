@@ -1,0 +1,28 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   backend/.env
+	modified:   backend/api/index.js
+	modified:   backend/vercel.json
+	modified:   dashboard/package-lock.json
+	modified:   dashboard/package.json
+	modified:   dashboard/src/components/BuyActionWindow.jsx
+	modified:   dashboard/src/components/Dashboard.jsx
+	modified:   dashboard/src/components/Holdings.jsx
+	modified:   dashboard/src/components/WatchList.jsx
+	modified:   dashboard/src/main.jsx
+	modified:   dashboard/vite.config.js
+	modified:   frontend (modified content, untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	dashboard/.env
+	dashboard/src/ErrorBoundary.jsx
+	git_status.txt
+	test_output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")

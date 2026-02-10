@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3002;
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URL)
@@ -28,42 +28,42 @@ app.get("/", (req, res) => {
   res.json({ message: "Zerodha Backend Server is running!" });
 });
 
-app.get("/addPosition", async (req, res) => {
-  const tempPosition = [
-    {
-      product: "CNC",
-      name: "EVEREADY",
-      qty: 2,
-      avg: 316.27,
-      price: 312.35,
-      net: "+0.58%",
-      day: "-1.24%",
-      isLoss: true,
-    },
-    {
-      product: "CNC",
-      name: "JUBLFOOD",
-      qty: 1,
-      avg: 3124.75,
-      price: 3082.65,
-      net: "+10.04%",
-      day: "-1.35%",
-      isLoss: true,
-    },
-  ];
+// app.get("/addPosition", async (req, res) => {
+//   const tempPosition = [
+//     {
+//       product: "CNC",
+//       name: "EVEREADY",
+//       qty: 2,
+//       avg: 316.27,
+//       price: 312.35,
+//       net: "+0.58%",
+//       day: "-1.24%",
+//       isLoss: true,
+//     },
+//     {
+//       product: "CNC",
+//       name: "JUBLFOOD",
+//       qty: 1,
+//       avg: 3124.75,
+//       price: 3082.65,
+//       net: "+10.04%",
+//       day: "-1.35%",
+//       isLoss: true,
+//     },
+//   ];
 
-  try {
-    await Promise.all(
-      tempPosition.map((item) => {
-        const newPosition = new PositionsModel(item);
-        return newPosition.save();
-      })
-    );
-    res.send("Done");
-  } catch (err) {
-    res.status(500).send("Error saving positions: " + err.message);
-  }
-});
+//   try {
+//     await Promise.all(
+//       tempPosition.map((item) => {
+//         const newPosition = new PositionsModel(item);
+//         return newPosition.save();
+//       })
+//     );
+//     res.send("Done");
+//   } catch (err) {
+//     res.status(500).send("Error saving positions: " + err.message);
+//   }
+// });
 
 app.get("/allHoldings", async (req, res) => {
   try {
@@ -99,10 +99,12 @@ app.post("/newOrder", async (req, res) => {
   }
 });
 
-// app.listen(PORT,()=>{
-//   console.log(`connected port on ${PORT}`);
-  
-// })
+// Start server only when running locally or directly
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`connected port on ${PORT}`);
+  });
+}
 
 // ✅ Export Express app for Vercel
 module.exports = app;

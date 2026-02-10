@@ -1,0 +1,2 @@
+origin	https://github.com/sanyamsaurav/zerodha-clone.git (fetch)
+origin	https://github.com/sanyamsaurav/zerodha-clone.git (push)
