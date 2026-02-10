@@ -1,0 +1,28 @@
+ Volume in drive D is New Volume
+ Volume Serial Number is 5ED7-2A6A
+
+ Directory of D:\project\zerodha
+
+11-02-2026  02:32    <DIR>          .
+01-02-2026  23:25    <DIR>          ..
+11-02-2026  02:32    <DIR>          .git
+11-02-2026  02:32                45 .gitignore
+24-09-2025  15:18    <DIR>          backend
+11-02-2026  01:45    <DIR>          dashboard
+11-02-2026  02:32                 0 dir_list.txt
+11-02-2026  02:16             3,716 final_status.txt
+11-02-2026  02:16    <DIR>          frontend
+11-02-2026  02:05                 5 git_branch.txt
+11-02-2026  02:05               129 git_remote.txt
+11-02-2026  02:05             1,045 git_status.txt
+11-02-2026  02:32               420 git_status_check_2.txt
+11-02-2026  02:13             1,196 git_status_root.txt
+11-02-2026  02:14               924 git_status_root_2.txt
+11-02-2026  02:14               947 git_status_root_3.txt
+11-02-2026  02:11                22 push_log.txt
+11-02-2026  02:26               339 status_check.txt
+11-02-2026  02:29               358 status_rename.txt
+11-02-2026  02:05                14 test_output.txt
+11-02-2026  02:29               955 vercel.json
+              15 File(s)         10,115 bytes
+               6 Dir(s)  79,674,077,184 bytes free

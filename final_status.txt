@@ -1,0 +1,82 @@
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    frontend
+	new file:   frontend/.gitignore
+	new file:   frontend/README.md
+	new file:   frontend/eslint.config.js
+	new file:   frontend/frontend_push_log.txt
+	new file:   frontend/frontend_remote.txt
+	new file:   frontend/frontend_status.txt
+	new file:   frontend/index.html
+	new file:   frontend/package-lock.json
+	new file:   frontend/package.json
+	new file:   frontend/public/images/appstoreBadge.svg
+	new file:   frontend/public/images/coin.png
+	new file:   frontend/public/images/console.png
+	new file:   frontend/public/images/dittoLogo.png
+	new file:   frontend/public/images/ecosystem.png
+	new file:   frontend/public/images/education.svg
+	new file:   frontend/public/images/goldenpiLogo.png
+	new file:   frontend/public/images/googlePlayBadge.svg
+	new file:   frontend/public/images/homeHero.png
+	new file:   frontend/public/images/intradayTrades.svg
+	new file:   frontend/public/images/kite.png
+	new file:   frontend/public/images/kiteconnect.png
+	new file:   frontend/public/images/largestBroker.svg
+	new file:   frontend/public/images/logo.svg
+	new file:   frontend/public/images/nithinKamath.jpg
+	new file:   frontend/public/images/pressLogos.png
+	new file:   frontend/public/images/pricing0.svg
+	new file:   frontend/public/images/pricingEquity.svg
+	new file:   frontend/public/images/pricingMF.svg
+	new file:   frontend/public/images/sensibullLogo.svg
+	new file:   frontend/public/images/signup.png
+	new file:   frontend/public/images/smallcaseLogo.png
+	new file:   frontend/public/images/streakLogo.png
+	new file:   frontend/public/images/varsity.png
+	new file:   frontend/public/images/zerodhaFundhouse.png
+	new file:   frontend/src/App.css
+	new file:   frontend/src/App.jsx
+	new file:   frontend/src/ErrorBoundary.jsx
+	new file:   frontend/src/assets/test/Hero.test.js
+	new file:   frontend/src/index.css
+	new file:   frontend/src/landing_page/Footer.jsx
+	new file:   frontend/src/landing_page/Navbar.jsx
+	new file:   frontend/src/landing_page/NotFound.jsx
+	new file:   frontend/src/landing_page/OpenAccount.jsx
+	new file:   frontend/src/landing_page/about/AboutPage.jsx
+	new file:   frontend/src/landing_page/about/Hero.jsx
+	new file:   frontend/src/landing_page/about/Team.jsx
+	new file:   frontend/src/landing_page/home/Awards.jsx
+	new file:   frontend/src/landing_page/home/Education.jsx
+	new file:   frontend/src/landing_page/home/Hero.jsx
+	new file:   frontend/src/landing_page/home/HomePage.jsx
+	new file:   frontend/src/landing_page/home/Pricing.jsx
+	new file:   frontend/src/landing_page/home/Stats.jsx
+	new file:   frontend/src/landing_page/pricing/Brokerage.jsx
+	new file:   frontend/src/landing_page/pricing/Hero.jsx
+	new file:   frontend/src/landing_page/pricing/PricingPage.jsx
+	new file:   frontend/src/landing_page/product/Hero.jsx
+	new file:   frontend/src/landing_page/product/LeftSection.jsx
+	new file:   frontend/src/landing_page/product/Productpage.jsx
+	new file:   frontend/src/landing_page/product/RightSection.jsx
+	new file:   frontend/src/landing_page/product/Universe.jsx
+	new file:   frontend/src/landing_page/signup/Signup.jsx
+	new file:   frontend/src/landing_page/support/CreateTicket.jsx
+	new file:   frontend/src/landing_page/support/Hero.jsx
+	new file:   frontend/src/landing_page/support/SupportPage.jsx
+	new file:   frontend/src/main.jsx
+	new file:   frontend/vite.config.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	final_status.txt
+	git_status_root.txt
+	git_status_root_2.txt
+	git_status_root_3.txt
+	push_log.txt
+

@@ -1,0 +1,30 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   backend/.env
+	modified:   backend/api/index.js
+	modified:   backend/vercel.json
+	new file:   dashboard/.env
+	modified:   dashboard/package-lock.json
+	modified:   dashboard/package.json
+	new file:   dashboard/src/ErrorBoundary.jsx
+	modified:   dashboard/src/components/BuyActionWindow.jsx
+	modified:   dashboard/src/components/Dashboard.jsx
+	modified:   dashboard/src/components/Holdings.jsx
+	modified:   dashboard/src/components/WatchList.jsx
+	modified:   dashboard/src/main.jsx
+	modified:   dashboard/vite.config.js
+	new file:   git_branch.txt
+	new file:   git_remote.txt
+	new file:   git_status.txt
+	new file:   test_output.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_root.txt
+	git_status_root_2.txt
+	git_status_root_3.txt
+	push_log.txt
+
