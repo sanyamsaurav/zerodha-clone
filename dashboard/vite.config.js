@@ -13,5 +13,9 @@ export default defineConfig({
   preview: {
     port: 5174,
     strictPort: true
+  },
+  build: {
+    outDir: 'dist/dashboard',
+    emptyOutDir: true
   }
 })
