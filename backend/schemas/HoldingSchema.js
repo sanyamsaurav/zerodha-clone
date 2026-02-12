@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema } = require("mongoose");
 
 const holdingSchema = new Schema({
   name: { type: String, required: true },
@@ -9,5 +9,4 @@ const holdingSchema = new Schema({
   day: { type: String, required: true },
 });
 
-// "Holding" is the collection model name (Mongo will pluralize to "holdings")
-module.exports = model("Holding", holdingSchema);
+module.exports = { holdingSchema };

@@ -1,17 +1,22 @@
-.nav-link{
-    margin-left: 40px;
-}
-#supportHero{
-    background-color: rgb(56,126,209);
-   color: white;
-}
-#supportHero a{
-   color: white;
-   
+#supportWrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  justify-content: space-between;
+  margin: 0 20px; /* Default small margin */
 }
 
-#supportWrapper{
-   display: flex;
-    justify-content: space-between;
-    margin: 0 150px;
+@media (min-width: 768px) {
+  #supportWrapper {
+    margin: 0 150px; /* Restore large margin on desktop */
+  }
+}
+
+.nav-link {
+  margin-left: 0; /* Reset for mobile */
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    margin-left: 40px; /* Restore for desktop navbar */
+  }
 }

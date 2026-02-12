@@ -1,4 +1,4 @@
-const { Schema, model } = require("mongoose");
+const { Schema } = require("mongoose");
 
 const PositionsSchema = new Schema({
   name: { type: String, required: true },
@@ -8,4 +8,4 @@ const PositionsSchema = new Schema({
   date: { type: Date, default: Date.now }
 });
 
-module.exports = model("Position", PositionsSchema);
+module.exports = { PositionsSchema };
