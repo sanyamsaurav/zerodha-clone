@@ -26,8 +26,12 @@
             "dest": "/backend/api/index.js"
         },
         {
+            "src": "/dashboard/assets/(.*)",
+            "dest": "/dashboard/assets/$1"
+        },
+        {
             "src": "/dashboard/(.*)",
-            "dest": "/dashboard/$1"
+            "dest": "/dashboard/index.html"
         },
         {
             "src": "/dashboard",
@@ -35,7 +39,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/frontend/$1"
+            "dest": "/frontend/index.html"
         }
     ]
 }

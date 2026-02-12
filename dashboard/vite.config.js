@@ -15,7 +15,7 @@ export default defineConfig({
     strictPort: true
   },
   build: {
-    outDir: 'dist/dashboard',
+    outDir: 'dist',
     emptyOutDir: true
   }
 })
