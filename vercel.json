@@ -26,6 +26,9 @@
             "dest": "/backend/api/index.js"
         },
         {
+            "handle": "filesystem"
+        },
+        {
             "src": "/dashboard/assets/(.*)",
             "dest": "/dashboard/assets/$1"
         },
