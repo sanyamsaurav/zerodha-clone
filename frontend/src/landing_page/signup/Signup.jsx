@@ -14,7 +14,7 @@ const Signup = () => {
             <span className="input-group-text" id="basic-addon1">+91</span>
             <input type="text" className="form-control" placeholder="Mobile number" aria-label="Mobile number" aria-describedby="basic-addon1" />
           </div>
-          <button className='btn btn-primary fs-5 mb-3' style={{ width: "100%" }}>Continue</button>
+          <a href="/dashboard" className='btn btn-primary fs-5 mb-3' style={{ width: "100%" }}>Continue</a>
           <a href="" style={{ textDecoration: "none", fontSize: "14px" }}>Want to open an NRI account?</a>
           <p className="text-muted mt-3" style={{ fontSize: "12px" }}>
             I authorise Zerodha to contact me even if my number is registered on DND. I authorise Zerodha to fetch my KYC information from the C-KYC registry with my PAN. <br /><br />
